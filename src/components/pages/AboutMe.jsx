@@ -13,11 +13,11 @@ function AboutMe() {
       <Container>
       <div className="px-25">
           <div className=" text-center">
-          <Heading as="h3" className=" text-[44px]  font-bold mb-10">
+          <Heading as="h3" className=" text-[44px]  font-bold ">
             About <span className="text-[#00bbff]">Me</span>
           </Heading>
         </div>
-        <div className="">
+        <div className="mt-10">
           <Flex className="  flex-row justify-between items-center gap-x-5 ">
             {/* ////////////LeftSide//////// */}
             <div className="w-[50%] ">

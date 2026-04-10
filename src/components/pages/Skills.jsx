@@ -2,7 +2,7 @@ import React from 'react'
 import Heading from '../Heading'
 import Container from '../Container'
 import Button from '../Button'
-import { Link } from 'react-router-dom'
+
 
 function Skills() {
   return (
@@ -13,7 +13,7 @@ function Skills() {
   <Heading as="h3" className=" text-[44px] text-center  font-bold  ">My <span className= "text-primary">Skills</span></Heading>
 <div className="flex justify-center items-center gap-x-5 cursor-pointer mt-10">
  <Button  className="  font-light  text-gray-700 hover:scale-105 duration-300 hover:bg-primary  hover:text-white" btnText="All"/>
- <Link to ="frontend"><Button  className="  font-light  text-gray-700 hover:scale-105 duration-300 hover:bg-[#00bbff]  hover:text-white" btnText="Frontend"/></Link>
+ <Button  className="  font-light  text-gray-700 hover:scale-105 duration-300 hover:bg-[#00bbff]  hover:text-white" btnText="Frontend"/>
  <Button  className="  font-light  text-gray-700 hover:scale-105 duration-300 hover:bg-primary  hover:text-white" btnText="Backend"/>
  <Button  className="  font-light  text-gray-700 hover:scale-105 duration-300 hover:bg-primary  hover:text-white" btnText="Tools"/>
 </div>

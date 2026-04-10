@@ -12,7 +12,6 @@ import MyPortfolio from './components/pages/MyPortfolio'
 import MyServices from './components/pages/MyServices'
 import ContectMe from './components/ContectMe'
 import Skills from './components/pages/Skills'
-import Frontend from './components/Frontend'
 import Projects from './components/pages/Projects'
 
 function App() {
@@ -27,7 +26,6 @@ function App() {
 <Route path="aboutme" element ={<AboutMe/>}/>
 <Route path="myPortfolio" element ={<MyPortfolio/>}/>
 <Route path="skills" element={<Skills/>}/>
-<Route path="frontend" element={<Frontend/>}/>
 <Route path="myServices" element={<MyServices/>}/>
 <Route path="projects" element={<Projects/>}/>
 <Route path="contectMe" element={<ContectMe/>}/>

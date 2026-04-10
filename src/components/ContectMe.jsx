@@ -8,28 +8,31 @@ import Button from "./Button";
 import { PiPaperPlaneTiltBold } from "react-icons/pi";
 function ContectMe() {
   return (
-<section>
+<section className="py-30">
 <Container>
-<div className="p-4 md:p-12 lg:p-20 ">
+<div className="px-25">
 
 <Heading as="h3" className=" text-4xl text-center md:text-5xl font-bold mb-10" >
-  Contact<span className=" text-[#00bbff]"> Me</span> 
+  Contact<span className=" text-primary"> Me</span> 
 </Heading>
-<Flex>
-<div className=" text-center ml-[90px]">
-  {/* .............Leaft_Side............. */}
-<Heading as="h4" className="text-2xl font-semibold">Let's  <span className="text-[#00bbff]"> Talk</span>  </Heading>
-<Heading as="p" className="text-gray-700  text-xm leading-relaxed " text="I'm open to discussing web development projects or partnership opportunities."/>
 
-<Flex className="gap-x-2 hover:scale-105 duration-300  cursor-pointer ">
-  <MdOutlineEmail className= "text-[#00bbff]" />
+<div className="flex items-center justify-between gap-x-5 pt-10 ">
+  
+  {/* .............Leaft_Side............. */}
+
+  <div className=" w-[50%]">
+<Heading as="h4" className="text-[40px] font-semibold">Let's  <span className="text-primary"> Talk</span> </Heading>
+<p className="text-[20px]  font-normal mt-3">I'm open to discussing web development projects or partnership opportunities.</p>
+
+<Flex className="  text-[25px]  gap-x-2 hover:scale-105 duration-300  cursor-pointer mt-3  ">
+  <MdOutlineEmail className= "text-primary" />
   <Heading as="h4" className="" text="farhadhossain6996@gmail.com "/>
 </Flex>
-<Flex className="gap-x-2 hover:scale-105 duration-300  cursor-pointer">
+<Flex className=" text-[25px]    gap-x-2 hover:scale-105 duration-300  cursor-pointer mt-3">
 <LuPhoneCall className= "text-[#00bbff]" />
  <Heading as="h4" className="" text="01320869182"/>
 </Flex>
-<Flex className="gap-x-2 hover:scale-105 duration-300  cursor-pointer">
+<Flex className=" text-[25px]   gap-x-2 hover:scale-105 duration-300  cursor-pointer mt-3">
 <LiaMapMarkedAltSolid className= "text-[#00bbff]" />
  <Heading as="h4" className="" text="Tongi,Gazipur_Dhaka"/>
 </Flex>
@@ -37,7 +40,8 @@ function ContectMe() {
 
 </div>
 {/* ...............................Right............... */}
-<div className="w-11/12 sm:w-3/4 md:w-2/3 lg:w-4/12  mx-auto bg-white shadow-md rounded-xl p-8 space-y-6 mr-[50px]">
+<div className=" w-[40%]">
+  <div className="bg-white shadow-md rounded-xl p-8 space-y-6">
 <Heading as="h3" className=" text-2xl font-semibold text-center"text="Send a Message"/>
 <div className="">
 <Heading as="h3" className="text-sm font-medium text-gray-700 mb-1 block text-center "text="Your Name"/>
@@ -59,13 +63,11 @@ function ContectMe() {
 
 </div>
 </div>
-
-</Flex>
-
-
+</div>
 
 </div>
 
+</div>
 </Container>
 
 

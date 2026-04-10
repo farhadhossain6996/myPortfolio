@@ -5,7 +5,7 @@ import { FaFacebook,FaLinkedin, FaInstagram,FaGithub } from "react-icons/fa";
 
 function Footer() {
   return (
-   <section className="p-4 md:p-12 lg:p-20 bg-[#ffffff] ">
+   <section className="p-4 md:p-12 lg:p-20  ">
 <Container>
 <div className="flex justify-between mt-7 ">
 <div className="text-gray-700">

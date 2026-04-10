@@ -4,8 +4,9 @@ import Container from '../Container'
 import Flex from '../Flex'
 import Heading from '../Heading'
 import Image from '../Image'
-import Product from '../product'
-import xileaner from '/src/assets/xileaner.png'
+import xilancer from '/src/assets/xileaner.png'
+import reeni from '/src/assets/reeni.png'
+import Orebi from '/src/assets/Orebi.png'
 import { FaExternalLinkAlt,FaGithub,FaArrowRight  } from "react-icons/fa";
 
 
@@ -19,19 +20,94 @@ function Projects() {
 
 <Heading as="h3" className=" text-gray-700  text-center text-xl  leading-relaxed max-w-3xl mx-auto mt-10  " text="Take a look at some of my latest projects, each built with careful attention to detail and a passion for creating seamless user experiences."/>
 {/* ............................. */}
-<div className="flex mt-8">
-  <Product 
-  productImg={xileaner}
-buttonText={"Tailwind css"}
+<div className="flex justify-between gap-x-6  mt-12">
+   <div className="w-[33%] group ">
+    <div className=" bg-white group-hover:scale-102 duration-300 ">
+ <div className="h-48 overflow-hidden">
+  <Image ImgSrc={xilancer} className="group-hover:scale-110 duration-300" />
+ </div>
+      <div className=" px-4 py-5 ">
+    <Flex className="text-center gap-x-3">
 
+<button className="px-2 py-1 text-[12px] font-semibold text-center text-black border border-gray-500 rounded-full">
+  Tailwind css
+</button>
+ </Flex>
 
-livLnk={"https://farhadhossain6996.github.io/Xilancer/"}
-GithubLnk={"https://github.com/farhadhossain6996/Xilancer"}
-/>
+<Heading as="h3" className="font-semibold text-xl leading-relaxed mt-4" text="Freelance Marketplace"/>
+<Heading as="p" className=" leading-relaxed text-muted-foreground text-sm mt-2" text="A modern freelance marketplace focused on connecting clients with the right talent. Designed with a 'UX-first' approach to provide a smooth and effortless service-browsing experience."/>
 
+<div className=" flex gap-x-4 mt-7   text-gray-500 ">
+
+<a href="https://farhadhossain6996.github.io/Xilancer/" target='_blank'><FaExternalLinkAlt className=" text-[20px] hover:text-primary transition duration-300 text-muted-foreground" 
+ /></a>
+<a href="https://github.com/farhadhossain6996/Xilancer" target='_blank' ><FaGithub className="text-[20px] hover:text-primary transition duration-300 text-muted-foreground" /></a>
+</div>
+
+  </div>
+   </div>
+  </div>
+<div className="w-[33%] group ">
+    <div className=" bg-white group-hover:scale-102 duration-300">
+ <div className="h-48 overflow-hidden">
+  <Image ImgSrc={reeni} className="group-hover:scale-110 duration-300" />
+ </div>
+      <div className="px-4 py-5">
+    <Flex className="text-center gap-x-3">
+
+<button className="px-2 py-1 text-[12px] font-semibold text-center text-black border border-gray-500 rounded-full">
+  React.js
+</button>
+<button className="px-2 py-1 text-[12px] font-semibold text-center text-black border border-gray-500 rounded-full">
+ Tailwind CSS
+</button>
+<button className="px-2 py-1 text-[12px] font-semibold text-center text-black border border-gray-500 rounded-full">
+Framer Motion
+</button>
+ </Flex>
+
+<Heading as="h3" className="font-semibold text-xl leading-relaxed mt-4" text="Personal Brand Portfolio"/>
+<Heading as="p" className=" leading-relaxed text-muted-foreground text-sm mt-2" text="A high-performance personal portfolio featuring dynamic skill visualization and a structured project showcase, built with a focus on modern aesthetics and seamless UX."/>
+
+<div className=" flex gap-x-4 mt-7   text-gray-500 ">
+
+<a href="https://reeniweb2pojecfinal.vercel.app/" target='_blank'><FaExternalLinkAlt className=" text-[20px] hover:text-primary transition duration-300 text-muted-foreground" 
+ /></a>
+<a href="https://github.com/farhadhossain6996/reeniweb2pojecfinal" target='_blank' ><FaGithub className="text-[20px] hover:text-primary transition duration-300 text-muted-foreground" /></a>
+</div>
+
+  </div>
+   </div>
+  </div>
+  <div className="w-[33%] group ">
+    <div className="bg-white group-hover:scale-102 duration-300 ">
+ <div className="h-48 overflow-hidden">
+  <Image ImgSrc={Orebi} className="group-hover:scale-110 duration-300" />
+ </div>
+      <div className="px-4 py-5">
+    <Flex className="text-center gap-x-3">
+
+<button className="px-2 py-1 text-[12px] font-semibold text-center text-black border border-gray-500 rounded-full">
+  Tailwind css
+</button>
+ </Flex>
+
+<Heading as="h3" className="font-semibold text-xl leading-relaxed mt-4" text="Freelance Marketplace"/>
+<Heading as="p" className=" leading-relaxed text-muted-foreground text-sm mt-2" text="A modern freelance marketplace focused on connecting clients with the right talent. Designed with a 'UX-first' approach to provide a smooth and effortless service-browsing experience."/>
+
+<div className=" flex gap-x-4 mt-7   text-gray-500 ">
+
+<a href="https://orebi-psi-ten.vercel.app/" target='_blank'><FaExternalLinkAlt className=" text-[20px] hover:text-primary transition duration-300 text-muted-foreground" 
+ /></a>
+<a href="https://github.com/farhadhossain6996/Orebi" target='_blank' ><FaGithub className="text-[20px] hover:text-primary transition duration-300 text-muted-foreground" /></a>
+</div>
+
+  </div>
+   </div>
+  </div>
 
 </div>
-<div className=" m-auto  bg-[#00bbff] items-center  w-2/12 text-white rounded-full hover:scale-105 duration-300">
+<div className=" m-auto  bg-primary items-center w-[190px] text-white rounded-full hover:scale-105 duration-300 mt-8">
 
 <a href="https://github.com/farhadhossain6996" target="_blank" className="flex items-center" >
 <Button className="text-center" btnText="Check My Github"/>
@@ -43,17 +119,25 @@ GithubLnk={"https://github.com/farhadhossain6996/Xilancer"}
 </div>
 </div>
 
-
-
-
-
-
 </Container>
-
-
 
   </section>
   )
 }
 
 export default Projects
+
+
+
+
+
+
+
+//  <Product 
+//   productImg={xileaner}
+// buttonText={"Tailwind css"}
+
+
+// livLnk={"https://farhadhossain6996.github.io/Xilancer/"}
+// GithubLnk={"https://github.com/farhadhossain6996/Xilancer"}
+// />
