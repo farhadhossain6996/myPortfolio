@@ -9,21 +9,21 @@ import { PiPresentationBold } from "react-icons/pi";
 
 function AboutMe() {
   return (
-    <section className="py-30">
+    <section className="lg:py-30 py-15">
       <Container>
-      <div className="px-25">
+      <div className="lg:px-25">
           <div className=" text-center">
           <Heading as="h3" className=" text-[44px]  font-bold ">
             About <span className="text-[#00bbff]">Me</span>
           </Heading>
         </div>
-        <div className="mt-10">
-          <Flex className="  flex-row justify-between items-center gap-x-5 ">
+        <div className=" lg:flex justify-between items-center gap-x-5  lg:mt-10">
+
             {/* ////////////LeftSide//////// */}
-            <div className="w-[50%] ">
+            <div className="lg:w-[50%] w-full  ">
               <Heading
                 as="h2"
-                className="text-[30px]  font-bold  ">
+                className="lg:text-[30px] text-[28px]  font-bold  ">
                   Front End Developer with React
               </Heading>
               <Heading
@@ -53,7 +53,7 @@ function AboutMe() {
             </div>
 
             {/* ...........Rightside...... */}
-            <div className=" w-[50%] space-y-5 ">
+            <div className=" lg:w-[50%] space-y-5 w-full lg:mt-0 mt-10 ">
               <div className="bg-white p-6 rounded-lg text-balck shadow-lg border-r-2 border-primary ursor-pointer hover:scale-105 duration-300 flex  items-center space-x-4">
                 <div className=" p-4 rounded-full bg-[#eff7f9] text-primary ">
             <FaCode />
@@ -110,7 +110,6 @@ function AboutMe() {
                 </div>
               </div>
             </div>
-          </Flex>
         </div>
       </div>
       </Container>

@@ -8,19 +8,19 @@ import Button from "./Button";
 import { PiPaperPlaneTiltBold } from "react-icons/pi";
 function ContectMe() {
   return (
-<section className="py-30">
+<section className="lg:py-30 py-15">
 <Container>
-<div className="px-25">
+<div className="lg:px-25">
 
 <Heading as="h3" className=" text-4xl text-center md:text-5xl font-bold mb-10" >
   Contact<span className=" text-primary"> Me</span> 
 </Heading>
 
-<div className="flex items-center justify-between gap-x-5 pt-10 ">
+<div className="flex flex-col lg:flex-row items-center justify-between lg:gap-x-6 gap-y-6 lg:pt-10 pt-5 ">
   
   {/* .............Leaft_Side............. */}
 
-  <div className=" w-[50%]">
+  <div className=" lg:w-[50%] w-full">
 <Heading as="h4" className="text-[40px] font-semibold">Let's  <span className="text-primary"> Talk</span> </Heading>
 <p className="text-[20px]  font-normal mt-3">I'm open to discussing web development projects or partnership opportunities.</p>
 
@@ -40,7 +40,7 @@ function ContectMe() {
 
 </div>
 {/* ...............................Right............... */}
-<div className=" w-[40%]">
+<div className="lg:w-[40%] w-full ">
   <div className="bg-white shadow-md rounded-xl p-8 space-y-6">
 <Heading as="h3" className=" text-2xl font-semibold text-center"text="Send a Message"/>
 <div className="">

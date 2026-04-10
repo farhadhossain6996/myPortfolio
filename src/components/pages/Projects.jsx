@@ -12,16 +12,16 @@ import { FaExternalLinkAlt,FaGithub,FaArrowRight  } from "react-icons/fa";
 
 function Projects() {
   return (
-  <section className="py-30">
+  <section className="lg:py-30 py-15">
 
 <Container>
-<div className="px-25">
+<div className="lg:px-25">
   <Heading as="h3" className=" text-[44px] text-center  font-bold " >Featured <span className="text-[#00bbff]"> Projects</span> </Heading>
 
-<Heading as="h3" className=" text-gray-700  text-center text-xl  leading-relaxed max-w-3xl mx-auto mt-10  " text="Take a look at some of my latest projects, each built with careful attention to detail and a passion for creating seamless user experiences."/>
+<Heading as="h3" className=" text-gray-700  text-center lg:text-[20px] text-[18px]  leading-relaxed max-w-3xl mx-auto lg:mt-10 mt-6  " text="Take a look at some of my latest projects, each built with careful attention to detail and a passion for creating seamless user experiences."/>
 {/* ............................. */}
-<div className="flex justify-between gap-x-6  mt-12">
-   <div className="w-[33%]  group ">
+<div className="flex flex-col lg:flex-row justify-between lg:gap-x-6 gap-y-6  mt-12">
+   <div className="lg:w-[33%] w-full  group ">
     <div className=" bg-white h-[450px] group-hover:scale-102 duration-300 ">
  <div className="h-48 overflow-hidden">
   <Image ImgSrc={xilancer} className="group-hover:scale-110 duration-300" />
@@ -47,7 +47,7 @@ function Projects() {
   </div>
    </div>
   </div>
-<div className="w-[33%]  group ">
+<div className="lg:w-[33%] w-full  group ">
     <div className=" bg-white h-[450px] group-hover:scale-102 duration-300">
  <div className="h-48 overflow-hidden">
   <Image ImgSrc={reeni} className="group-hover:scale-110 duration-300" />
@@ -79,7 +79,7 @@ Framer Motion
   </div>
    </div>
   </div>
-  <div className="w-[33%]  group ">
+  <div className="lg:w-[33%] w-full  group ">
     <div className="bg-white h-[450px] group-hover:scale-102 duration-300 ">
  <div className="h-48 overflow-hidden">
   <Image ImgSrc={Orebi} className="group-hover:scale-110 duration-300" />
@@ -131,16 +131,3 @@ Tailwind CSS
 export default Projects
 
 
-
-
-
-
-
-//  <Product 
-//   productImg={xileaner}
-// buttonText={"Tailwind css"}
-
-
-// livLnk={"https://farhadhossain6996.github.io/Xilancer/"}
-// GithubLnk={"https://github.com/farhadhossain6996/Xilancer"}
-// />
