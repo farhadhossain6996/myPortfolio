@@ -21,8 +21,8 @@ function Projects() {
 <Heading as="h3" className=" text-gray-700  text-center text-xl  leading-relaxed max-w-3xl mx-auto mt-10  " text="Take a look at some of my latest projects, each built with careful attention to detail and a passion for creating seamless user experiences."/>
 {/* ............................. */}
 <div className="flex justify-between gap-x-6  mt-12">
-   <div className="w-[33%] group ">
-    <div className=" bg-white group-hover:scale-102 duration-300 ">
+   <div className="w-[33%]  group ">
+    <div className=" bg-white h-[450px] group-hover:scale-102 duration-300 ">
  <div className="h-48 overflow-hidden">
   <Image ImgSrc={xilancer} className="group-hover:scale-110 duration-300" />
  </div>
@@ -47,8 +47,8 @@ function Projects() {
   </div>
    </div>
   </div>
-<div className="w-[33%] group ">
-    <div className=" bg-white group-hover:scale-102 duration-300">
+<div className="w-[33%]  group ">
+    <div className=" bg-white h-[450px] group-hover:scale-102 duration-300">
  <div className="h-48 overflow-hidden">
   <Image ImgSrc={reeni} className="group-hover:scale-110 duration-300" />
  </div>
@@ -79,8 +79,8 @@ Framer Motion
   </div>
    </div>
   </div>
-  <div className="w-[33%] group ">
-    <div className="bg-white group-hover:scale-102 duration-300 ">
+  <div className="w-[33%]  group ">
+    <div className="bg-white h-[450px] group-hover:scale-102 duration-300 ">
  <div className="h-48 overflow-hidden">
   <Image ImgSrc={Orebi} className="group-hover:scale-110 duration-300" />
  </div>
@@ -88,12 +88,15 @@ Framer Motion
     <Flex className="text-center gap-x-3">
 
 <button className="px-2 py-1 text-[12px] font-semibold text-center text-black border border-gray-500 rounded-full">
-  Tailwind css
+  React.js
+</button>
+<button className="px-2 py-1 text-[12px] font-semibold text-center text-black border border-gray-500 rounded-full">
+Tailwind CSS
 </button>
  </Flex>
 
-<Heading as="h3" className="font-semibold text-xl leading-relaxed mt-4" text="Freelance Marketplace"/>
-<Heading as="p" className=" leading-relaxed text-muted-foreground text-sm mt-2" text="A modern freelance marketplace focused on connecting clients with the right talent. Designed with a 'UX-first' approach to provide a smooth and effortless service-browsing experience."/>
+<Heading as="h3" className="font-semibold text-xl leading-relaxed mt-4" text="Online Shopping"/>
+<Heading as="p" className=" leading-relaxed text-muted-foreground text-sm mt-2" text="A sleek e-commerce frontend built with React and Tailwind CSS, featuring a fully responsive grid layout and optimized UI components"/>
 
 <div className=" flex gap-x-4 mt-7   text-gray-500 ">
 
